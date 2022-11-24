@@ -1,5 +1,4 @@
 gocgi:
-	mkdir -p bin
-	go build -o bin/gocgi	./cmd
+	go build -o gocgi ./cmd
 
 .PHONY: gocgi
